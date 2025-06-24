@@ -1,4 +1,4 @@
-# Docker Compose
+# Dockerfile
 
 This is the recommended way to get started with Directus. 
 

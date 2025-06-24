@@ -34,7 +34,8 @@ services:
       - 8055:8055
     volumes:
       - ./uploads:/directus/uploads
-      - ./snapshots:/directus/snapshots
+      # Comment in during local development export snapshots to mounted disk
+      #- ./snapshots:/directus/snapshots
       - ./extensions:/directus/extensions
     depends_on:
       database:
