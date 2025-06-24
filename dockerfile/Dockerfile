@@ -6,3 +6,6 @@ USER node
 
 RUN pnpm install @directus-labs/super-header-interface
 RUN pnpm install directus-extension-group-tabs-interface
+
+# Copy and install local extension
+COPY ./extensions /directus/extensions
